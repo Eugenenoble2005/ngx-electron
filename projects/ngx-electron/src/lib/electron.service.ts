@@ -55,11 +55,6 @@ export class ElectronService {
     public get ipcRenderer(): Electron.IpcRenderer {
         return this.electron ? this.electron.ipcRenderer : null;
     }
-
-    public get remote(): Electron.Remote {
-        return this.electron ? this.electron.remote : null;
-    }
-
     public get webFrame(): Electron.WebFrame {
         return this.electron ? this.electron.webFrame : null;
     }
